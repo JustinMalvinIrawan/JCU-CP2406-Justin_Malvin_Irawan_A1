@@ -5,7 +5,7 @@ public class Car {
     String id; // unique identifier
     static float length; // number of segments occupied, 1 for ease of prototype.
     private static float breadth;
-    private float speed; //segments moved per turn
+    private int speed; //segments moved per turn
     private int position; // position on current road
     private Road currentRoad; // current Road object
 
