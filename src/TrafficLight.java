@@ -28,7 +28,7 @@ public class TrafficLight {
     }
 
     public void printLightStatus() {
-        System.out.printf("%s is:%s on %s at position:%s%n", this.getId(), this.getState(), this.getRoadAttachedTo().getId(), this.getPosition());
+        System.out.printf("%s is:%s on %s at the position:%s%n", this.getId(), this.getState(), this.getRoadAttachedTo().getId(), this.getPosition());
     }
 
     public String getState() {
